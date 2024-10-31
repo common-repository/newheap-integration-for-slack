@@ -1,0 +1,261 @@
+.slackr-pad-10 {
+    padding: 10px;
+}
+.slackr-pad-left-10 {
+    padding-left: 10px;
+}
+.slackr-pad-right-10 {
+    padding-right: 10px;
+}
+.slackr-pad-top-10 {
+    padding-top: 10px;
+}
+.slackr-pad-bottom-10 {
+    padding-bottom: 10px;
+}
+
+.slackr-margin-10 {
+    margin: 10px;
+}
+.slackr-margin-left-10 {
+    margin-left: 10px;
+}
+.slackr-margin-right-10 {
+    margin-right: 10px;
+}
+.slackr-margin-top-10 {
+    margin-top: 10px;
+}
+.slackr-margin-left-10 {
+    margin-bottom: 10px;
+}
+
+.slackr-pad-5 {
+    padding: 5px;
+}
+.slackr-pad-left-5 {
+    padding-left: 5px;
+}
+.slackr-pad-right-5 {
+    padding-right: 5px;
+}
+.slackr-pad-top-5 {
+    padding-top: 5px;
+}
+.slackr-pad-bottom-5 {
+    padding-bottom: 5px;
+}
+
+.slackr-margin-5 {
+    margin: 5px;
+}
+.slackr-margin-left-5 {
+    margin-left: 5px;
+}
+.slackr-margin-right-5 {
+    margin-right: 5px;
+}
+.slackr-margin-top-5 {
+    margin-top: 5px;
+}
+.slackr-margin-left-5 {
+    margin-bottom: 5px;
+}
+
+.slackr-row{
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.slackr-row:before{
+    display: table;
+    content: ' ';
+}
+
+.slackr-row:after{
+    clear:both;
+    content: ' ';
+}
+
+.slackr-row:after{
+    clear:both;
+    display: table;
+    content: ' ';
+}
+
+.slackr-col-md-1,
+.slackr-col-md-2,
+.slackr-col-md-3,
+.slackr-col-md-4,
+.slackr-col-md-5,
+.slackr-col-md-6,
+.slackr-col-md-7,
+.slackr-col-md-8,
+.slackr-col-md-9,
+.slackr-col-md-10,
+.slackr-col-md-11,
+.slackr-col-md-12
+{
+    float:left;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    box-sizing: border-box;
+}
+.slackr-col-md-1:after,
+.slackr-col-md-2:after,
+.slackr-col-md-3:after,
+.slackr-col-md-4:after,
+.slackr-col-md-5:after,
+.slackr-col-md-6:after,
+.slackr-col-md-7:after,
+.slackr-col-md-8:after,
+.slackr-col-md-9:after,
+.slackr-col-md-10:after,
+.slackr-col-md-11:after,
+.slackr-col-md-12:after
+{
+    clear: both;
+    display: table;
+    content: ' ';
+}
+
+.slackr-col-md-1{
+    width: 8.33333333%;
+}
+
+.slackr-col-md-2{
+    width: 16.66666667%;
+}
+
+.slackr-col-md-3{
+    width: 25%;
+}
+
+.slackr-col-md-4{
+    width: 33.33333333%;
+}
+
+.slackr-col-md-5{
+    width: 41.66666667%;
+}
+
+.slackr-col-md-6{
+    width: 50%;
+}
+
+.slackr-col-md-7{
+    width: 58.33333333%;
+}
+
+.slackr-col-md-8{
+    width: 66.66666667%;
+}
+
+.slackr-col-md-9{
+    width: 75%;
+}
+
+.slackr-col-md-10{
+    width: 83.33333333%;
+}
+
+.slackr-col-md-11{
+    width: 91.66666667%;
+}
+
+.slackr-col-md-12{
+    width: 100%;
+}
+
+/**
+ * Slackr integration settings
+ */
+.slackr-integration-settings-container {
+    width: 100%;
+}
+
+.slackr-settings-event-category-tab-btn{
+    cursor:pointer;
+}
+
+.slackr-settings-event-category-crumble{
+    margin-bottom: 10px;
+}
+.slackr-settings-event-block
+{
+    background-color: #f1f1f1;
+    padding-left:15px;
+    padding-right:15px;
+    overflow: hidden;
+}
+
+.slackr-settings-event-block .property-title
+{
+    font-weight: 500;
+    line-height: 2;
+}
+
+.slackr-settings-event-block .slackr-header {
+    background-color: #e5e5e5;
+    height: 20px;
+    padding: 5px;
+}
+
+.slackr-settings-event-block .slackr-header .title {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 94%;
+}
+
+.slackr-settings-event-block .slackr-header .active-wrapper {
+    position: absolute;
+    right: 17px;
+    top: 5px;
+}
+
+
+.slackr-settings-event-block .event-active-action{
+
+}
+
+.slackr-settings-event-block .slackr-body {
+    padding: 5px;
+}
+
+.slackr-settings-event-block .slackr-body .content {
+
+}
+
+.slackr-settings-event-block .slackr-body .active-content {
+    display:none;
+}
+
+.slackr-settings-event-block .slackr-footer {
+    height: 20px;
+    padding: 5px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    /* Hide for now */
+    display:none;
+}
+
+.slackr-settings-event-block .slackr-footer .author-contact-link{
+    text-decoration: none;
+
+}
+
+
+/**
+ * Slackr tabs
+ */
+.slackr-tab{
+    display:none;
+}
+
+.slackr-active{
+    display:block!important;
+}
